@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+}
+header {
+  background: #111;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.section {
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 15px;
+}
+.card {
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+.lang-toggle, .pin-lock {
+  margin-top: 10px;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
